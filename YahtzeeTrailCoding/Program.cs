@@ -40,7 +40,7 @@ namespace YahtzeeTrailCoding
 
                 numberOfSides = int.Parse(Console.ReadLine());
             }
-            catch (FormatException e)
+            catch (FormatException)
             {
                 Console.WriteLine($"{_userIntErrTxt}");
                 goto EnterSides;
