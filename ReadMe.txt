@@ -1,0 +1,1 @@
+Run "Start" in order to open the console app.
